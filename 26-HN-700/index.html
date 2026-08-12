@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>样品送检信息 - 26-HN-700</title>
+<style>
+  :root { --primary: #1a5fb4; --ink: #1f2328; --muted: #6b7280; --line: #e5e7eb; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: #f3f5f8;
+    color: var(--ink);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    max-width: 420px;
+    width: 100%;
+    padding: 28px 26px;
+    border: 1px solid var(--line);
+  }
+  .badge {
+    display: inline-block;
+    background: #eaf2fd;
+    color: var(--primary);
+    font-size: 13px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 20px; margin-bottom: 20px; }
+  .field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  .field:last-of-type { border-bottom: none; }
+  .label { color: var(--muted); font-size: 15px; }
+  .value { font-size: 16px; font-weight: 600; letter-spacing: .3px; }
+  .value.code { font-family: Consolas, "Courier New", monospace; }
+  footer { margin-top: 18px; text-align: center; color: #9ca3af; font-size: 12px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">样品送检信息</span>
+    <h1>送检样品信息确认</h1>
+    <div class="field"><span class="label">检测机构代码</span><span class="value code">Lab-sp-001</span></div>
+    <div class="field"><span class="label">样品编号</span><span class="value code">26-HN-700</span></div>
+    <footer>本页面由样品二维码扫码打开</footer>
+  </main>
+</body>
+</html>
